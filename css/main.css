@@ -1,0 +1,12 @@
+body {
+    background-color: gold;
+}
+
+container {
+    background-color: green;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
