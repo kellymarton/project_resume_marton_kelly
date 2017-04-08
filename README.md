@@ -3,6 +3,10 @@
 
 [Website URL](https://kellymarton.com/resume)
 
+[HTML Outline](https://gsnedders.html5.org/outliner/process.py)
+
+[HTML Validator](https://validator.w3.org/nu/#file)
+
 
 # Resources
 [Simple Text Rotator Plugin](https://github.com/peachananr/simple-text-rotator)
