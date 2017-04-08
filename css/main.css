@@ -1,5 +1,5 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,31 +8,39 @@ body {
 }
 
 #container {
-  width: 95%;
-  margin: auto;
+    width: 95%;
+    margin: auto;
+}
+
+banner {
+    text-align: center;
 }
 
 main {
-  background-color: black;
-  opacity: 0.7;
-  border-radius: 15px;
-  padding:10px;
-  color: white;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 15px;
+    padding: 1%;
+    color: white;
+    margin-bottom: 20px;
 }
-
 
 header {
     text-align: center;
 }
 
 .hiddenHeader {
-  display: none;
+    display: none;
 }
 
 #title {
-
     font-family: 'Pacifico', cursive;
     font-size: 60px;
+}
+
+#scroller {
+    font-size: 30px;
+    opacity: 0.5;
 }
 
 h2 {
@@ -40,7 +48,7 @@ h2 {
 }
 
 h3 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 img {
@@ -48,7 +56,7 @@ img {
     height: auto;
     border-radius: 15px;
     border-style: solid;
-    border-width:medium;
+    border-width: medium;
 }
 
 #hide1,
@@ -56,7 +64,6 @@ img {
 #hide3,
 #hide4 {
     display: none;
-
 }
 
 button {
@@ -69,26 +76,25 @@ button {
 }
 
 @media screen and (min-width: 480px) {
-    #container{
-       width: 75%;
-       margin: auto;
+    #container {
+        width: 75%;
+        margin: auto;
     }
-    banner{
-      width:47%;
-      float: left;
+    banner {
+        width: 47%;
+        float: left;
 
     }
-    main{
-      width:47%;
-      float: right;
-      margin: auto;
-      margin-bottom: 5%;
+    main {
+        width: 47%;
+        float: right;
+        margin: auto;
     }
 
     img {
         width: 75%;
         height: auto;
-        }
+    }
 
 }
 
@@ -105,19 +111,22 @@ button {
     #hide3,
     #hide4 {
         display: block;
+    }
 
-        #container{
-           width: 75%;
-           margin: auto;
+    #container {
+        width: 75%;
+        margin: auto;
+    }
 
-   banner{
-        width:30%;
-          float: left;
-        }
-        main{
-          width:60%;
-          float: right;
-          margin: auto;
-          }
+    banner {
+        width: 50%;
+        float: left;
+    }
 
+    main {
+        width: 48%;
+        float: right;
+        margin: auto;
+        margin-bottom: 40px;
+    }
 }

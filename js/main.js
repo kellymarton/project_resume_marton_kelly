@@ -1,6 +1,8 @@
 $(document).ready(function () {
+
     $.backstretch('http://www.alachuaaudubon.org/wp-content/uploads/2016/03/La-Chua-070814-Pete-Gumaskas.jpg');
 
+//Add button functionality to each heading to hide section content until button is clicked
     $('#button1').click(function () {
         $('#hide1').toggle('slow');
     });
@@ -15,6 +17,12 @@ $(document).ready(function () {
 
     $('#button4').click(function () {
         $('#hide4').toggle('slow');
+    });
+
+    $('.rotate').textrotator({
+        animation: 'flipCube',
+        separator: ',',
+        speed: 2000
     });
 
 });
