@@ -12,7 +12,7 @@ body {
     margin: auto;
 }
 
-banner {
+#banner {
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ button {
         width: 75%;
         margin: auto;
     }
-    banner {
+    #banner {
         width: 47%;
         float: left;
 
@@ -118,7 +118,7 @@ button {
         margin: auto;
     }
 
-    banner {
+    #banner {
         width: 50%;
         float: left;
     }
