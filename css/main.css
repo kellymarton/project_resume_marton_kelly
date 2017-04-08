@@ -8,8 +8,13 @@ body {
   margin: auto;
 }
 
+
 header {
     text-align: center;
+}
+
+.hiddenHeader {
+  display: none;
 }
 
 #title {
@@ -19,7 +24,11 @@ header {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 18px;
+}
+
+h3 {
+  font-size: 14px;
 }
 
 img {
@@ -64,11 +73,34 @@ button {
         height: auto;
     }
 
-  }
+}
 
-/*@media screen and (min-width: 769px) {
+@media screen and (min-width: 1000px) {
+    .hiddenHeader {
+        display: block;
+    }
     button {
         display: none;
     }
+
+    #hide1,
+    #hide2,
+    #hide3,
+    #hide4 {
+        display: block;
+
+        #container{
+           width: 75%;
+           margin: auto;
+
+   banner{
+        width:30%;
+          float: left;
+        }
+        main{
+          width:60%;
+          float: right;
+          margin: auto;
+          }
 
 }
